@@ -47,7 +47,9 @@ $(document).ready(function newWindow() {
  $("#Pic1").click(function () { 
     window.open("./img/BildeEivind.png");
     });
-
+    
+    // I did not figure out how to show the bootstrap icon in a new window, 
+    // I wanted to change to a picture as it would work 100% then, but if you know how please tell me :)
     $("#Icon1").click(function () { 
       window.open("https://icons.getbootstrap.com/icons/arrow-through-heart/");
       });

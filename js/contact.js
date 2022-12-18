@@ -22,17 +22,25 @@ let Email = window.prompt("What is your e-mail?");
         let Info1 = [Email, PhnNr, Adr];
         console.log(Info1);
         console.log("From: " + Email);
+        $("#contactDetails p:eq(1)").text(Email);
         console.log("Contact: " + PhnNr);
+        $("#contactDetails p:first").text(PhnNr);
         console.log("Address: " + Adr);
+        $("#contactDetails p:eq(2)").text(Adr);
         }
-  }
-
-    else {
+  }   
+  else {
     alert("Your e-mail is not valid, try again.")
     };
   
   });
 });
+/*  Change the current contact information (email, telephone number, and address) to the input data in these 3 new variables.
+
+This must be done using jQuery selectors, without adding more HTML IDs to the ‘contact’ section. */
+    
+
+
 
 
 
